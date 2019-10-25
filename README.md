@@ -61,4 +61,14 @@ If you want to exeplore how it does work, login into the minikube machine, and c
 minikube ssh
 $ sudo iptables -L -t nat
 ```
+It's also interesting to see on the local machine (client) what happes at arp level:
+``` bash
+$ arp -a 
+  ...
+  ? (192.168.99.113) at 08:00:27:8a:c4:30 [ether] on vboxnet0
+  ? (192.168.99.111) at 08:00:27:8a:c4:30 [ether] on vboxnet0
+  ? (192.168.99.100) at 08:00:27:8a:c4:30 [ether] on vboxnet0
+  ? (192.168.99.112) at 08:00:27:8a:c4:30 [ether] on vboxnet0
+  ...
+```
 
