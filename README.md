@@ -54,3 +54,11 @@ $ wget 192.168.99.113:8080
   index.html                             [ <=>                               ]     356  --.-KB/s    in 0.001s  
   2019-10-25 13:33:21 (419 KB/s) - ‘index.html’ saved [356]
 ``` 
+
+## Notes
+If you want to exeplore how it does work, login into the minikube machine, and check the iptables NAT configurations:
+```bash
+minikube ssh
+$ sudo iptables -L -t nat
+```
+
