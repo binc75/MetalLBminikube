@@ -42,7 +42,8 @@ $ wget 192.168.99.111
   Length: 612 [text/html]
   Saving to: ‘index.html.1’
   
-  index.html.1                                 100%[==============================================================================================>]     612  --.-KB/s    in 0s      
+  index.html.1                       100%[==================================>]     612  --.-KB/s    in 0s      
+
 $ wget 192.168.99.113:8080
   --2019-10-25 13:33:21--  http://192.168.99.113:8080/
   Connecting to 192.168.99.113:8080... connected.
@@ -50,6 +51,6 @@ $ wget 192.168.99.113:8080
   Length: unspecified [text/plain]
   Saving to: ‘index.html’
   
-  index.html                                       [ <=>                                                                                           ]     356  --.-KB/s    in 0.001s  
+  index.html                             [ <=>                               ]     356  --.-KB/s    in 0.001s  
   2019-10-25 13:33:21 (419 KB/s) - ‘index.html’ saved [356]
 ``` 
